@@ -255,7 +255,7 @@ body {
 
 .proyek .box-kiri:hover {
   box-shadow: 0 10px 25px rgb(67, 36, 153);
-  border: 4px solid var(--dark);
+  border: 2px solid var(--dark);
 }
 
 .proyek .box-kanan {
@@ -276,4 +276,57 @@ body {
 .proyek .box-kanan:hover {
   box-shadow: 0 10px 25px rgb(67, 36, 153);
   border: 4px solid var(--dark);
+}
+
+.kontak {
+  margin: 3rem 1.4rem;
+  text-align: center;
+}
+
+.kontak h2 {
+  padding: 1rem 0.5rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: var(--primary-text);
+  position: relative;
+}
+
+.kontak h2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10%;
+  border-bottom: 2px solid var(--primary);
+}
+
+.kontak span {
+  color: var(--primary);
+}
+
+.kontak p {
+  font-weight: 500;
+  color: var(--primary-text);
+  margin-bottom: 3rem;
+}
+
+.kontak a {
+  background-color: transparent;
+  color: var(--primary);
+  border: 2.5px solid var(--primary);
+  padding: 1rem 1rem;
+}
+
+.kontak a:hover {
+  background-color: var(--primary);
+  color: var(--primary-text);
+}
+
+.footer {
+  text-align: center;
+  background-color: var(--dark);
+  padding: 1.3rem;
+  width: 100%;
 }
